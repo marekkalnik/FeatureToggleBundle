@@ -1,0 +1,7 @@
+TwigFeatureToggleBundle
+=======================
+
+This bundle helps you easyli configure your feature toggling in symfony2
+by adding some simple tags to twig and extending it's configuration.
+
+It's under developement, and it's not usable at this moment.
