@@ -1,0 +1,6 @@
+# IDE directories
+/nbproject/private/
+/nbproject
+/.project
+/.buildpath
+/.settings
