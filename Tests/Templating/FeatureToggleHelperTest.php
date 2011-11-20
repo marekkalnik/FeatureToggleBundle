@@ -7,9 +7,10 @@ class FeatureToggleHelperTest extends \PHPUnit_Framework_TestCase
 {
 	public function testDisabledFeature() {
 		$helper = new FeatureToggleHelper(array(
+		    array(
 			'name' => 'test',
 			'enabled' => false,
-		));
+		)));
 		
 		$this->assertEquals(
 			'<div class="feature-toggle">',
@@ -17,7 +18,7 @@ class FeatureToggleHelperTest extends \PHPUnit_Framework_TestCase
 		);
 		
 		$this->assertEquals(
-			'</div">',
+			'</div>',
 			$helper->endToggle('test')
 		);
 	}	
