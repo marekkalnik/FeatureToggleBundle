@@ -1,5 +1,5 @@
 <?php
-namespace Emka\FeatureToggleBundle\Test\Templating;
+namespace Emka\FeatureToggleBundle\Test\Templating\Helper;
 
 use Emka\FeatureToggleBundle\Templating\Helper\FeatureToggleHelper;
 
