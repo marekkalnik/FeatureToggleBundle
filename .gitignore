@@ -4,3 +4,6 @@
 /.project
 /.buildpath
 /.settings
+
+phperrors.log
+
