@@ -6,4 +6,6 @@
 /.settings
 
 phperrors.log
+phpunit.xml
+Tests/autoload.php
 
