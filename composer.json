@@ -1,0 +1,24 @@
+{
+    "name": "emka/featuretogglebundle",
+    "description": "Feature toggling",
+    "keywords": ["feature toggling"],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marek Kalnik",
+            "email": "marekk@theodo.fr"
+        },
+        {
+            "name": "Benjamin Grandfond",
+            "email": "benjaming@theodo.fr"
+        }
+    ],
+    "require": {
+        "twig/extensions": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "Emka\\FeatureToggleBundle": "" }
+    },
+    "target-dir": "Emka/FeatureToggleBundle"
+}
