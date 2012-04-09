@@ -25,7 +25,6 @@ class Configuration implements ConfigurationInterface
             ->children()
                 ->arrayNode('features')
                     ->canBeUnset()
-                    ->useAttributeAsKey('name')
                     ->treatNullLike(array())
                     ->prototype('array')
                         ->children()
