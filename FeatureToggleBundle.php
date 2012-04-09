@@ -1,7 +1,6 @@
 <?php
 namespace Emka\FeatureToggleBundle;
 
-use Emka\FeatureToggleBundle\DependencyInjection\Compiler\FeaturesPass;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
