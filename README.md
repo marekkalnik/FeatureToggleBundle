@@ -19,7 +19,7 @@ feature_toggle:
 			enabled: true    # false
 ```
 
-Use feature toggling in you templates
+Use feature toggling in your templates
 -------------------------------------
 
 Once you've configured your features, you can surround a block of code in Twig template with a `feature` tag.
