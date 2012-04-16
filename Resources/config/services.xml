@@ -4,10 +4,14 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
+    <parameters>
+        <parameter key="feature_toggle.feature.class">Emka\FeatureToggleBundle\Feature\Feature</parameter>
+        <parameter key="feature_toggle.manager.class">Emka\FeatureToggleBundle\Feature\FeatureManager</parameter>
+    </parameters>
+
     <services>
-        <service id="feature_toggle_helper" class="Emka\FeatureToggleBundle\Templating\Helper\FeatureToggleHelper">
-            <tag name="templating.helper" alias="feature_toggle" />
+        <service id="feature_toggle.manager" class="%feature_toggle.manager.class%">
+            <argument type="collection"></argument>
         </service>
     </services>
-
 </container>
