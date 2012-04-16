@@ -19,10 +19,10 @@ feature_toggle:
 			enabled: true    # false
 ```
 
-Use feature toggling in you templates
+Use feature toggling in your templates
 -------------------------------------
 
-Once you configured your features, you can surround it with the `feature`block in you Twig template.
+Once you configured your features, you can surround it with the `feature`block in your Twig templates.
 
 ```
 {% feature 'my_feature' %}
