@@ -31,7 +31,7 @@ class FeatureToggleNode extends \Twig_Node
             ->indent()
             ->write('<div class="feature disabled">')
         ->outdent()
-        ->wirte('}')
+        ->write('}')
         ->subcompile($this->getNode('feature'))
         ->write()
         ->indent()
