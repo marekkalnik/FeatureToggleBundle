@@ -15,7 +15,8 @@
         }
     ],
     "require": {
-        "twig/extensions": "dev-master"
+        "symfony/framework-bundle": "~2.0",
+        "twig/extensions": "~1.0"
     },
     "autoload": {
         "psr-0": { "Emka\\FeatureToggleBundle": "" }

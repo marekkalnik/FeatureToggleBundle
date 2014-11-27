@@ -41,7 +41,7 @@ class FeatureToggleTokenParser extends \Twig_TokenParser
                 $name = $stream->next()->getValue();
 
                 if (!$this->manager->has($name)) {
-                    throw new FeatureToggleNotFoundException('The feature "%s" does not exist.', $name);
+                    throw new FeatureToggleNotFoundException(sprintf('The feature "%s" does not exist.', $name));
                 } else {
                     $feature = $this->manager->get($name);
                 }
